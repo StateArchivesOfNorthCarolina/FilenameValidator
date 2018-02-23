@@ -211,7 +211,6 @@ def find_path(path):
     return l
 
 
-
 def arg_parse():
     parser = argparse.ArgumentParser(description='Validate or Shorten paths')
     parser.add_argument('--report', '-r', dest='report', nargs='?', default='invalid_files.tsv',
